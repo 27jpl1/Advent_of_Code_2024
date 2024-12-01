@@ -1,3 +1,3 @@
-lists = open('Lists', "r")
-for line in lists:
-    print(line.split())
+blah = open("Lists", "r")
+for line in blah:
+    print(line.strip().split())
