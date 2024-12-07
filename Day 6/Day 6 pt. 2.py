@@ -65,7 +65,6 @@ def check_loop(map, pos):
 total = 0
 j = 0
 while j < len(og_map):
-    print(j)
     k = 0
     while k < len(og_map[j]):
         new_map = og_map.copy()
