@@ -220,7 +220,7 @@ for move in moves:
         if grid[row + 1][col] == "#":
             pass
         elif grid[row + 1][col] == "[":
-            if grid[row + 2][col] == "#" or grid[row + 2][col + 1] == "#" :
+            if grid[row + 2][col] == "#" or grid[row + 2][col + 1] == "#":
                 pass
             elif grid[row + 2][col] == "[" or grid[row + 2][col] == "]" or grid[row + 2][col + 1] == "[":
                 full_row_available = False
